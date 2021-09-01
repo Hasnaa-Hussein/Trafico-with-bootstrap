@@ -1,0 +1,223 @@
+/* Global */
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #FEF8F5;
+}
+.btn-danger{
+    background-color: #E14540;
+    text-decoration: none;
+}
+/* Section one */
+
+#section1{
+    background-image: url("../Images/MicrosoftTeams-image.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 800px;
+}
+.sec1-im{
+    margin-left: -12px;
+    /* margin-top: 100px; */
+}
+/* nav */
+
+.nav-Color{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.btn-color{
+    background-color: #EE4D47;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.section-one-content{
+    
+    font-family: 'DM Serif Display', serif;
+    margin-top: 30px;
+}
+.fa.fa-long-arrow-right {
+    color: white;
+    font-size: 20px;
+}
+.sec2-about{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #F58A6B;
+    font-size: 24px;
+    line-height: 40px;
+    
+}
+.sec2-contents{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height:40px;
+}
+.commercial-cont{
+    background-color: #FDEDE8;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height:36px;
+}
+.section-four{
+    background-image: url("../Images/sec3.png");
+
+}
+/* section three */
+/* .section-three{
+    background-image: url(../Images/sec3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+} */
+.sec3-contnet{
+    font-family: 'DM Serif Display', serif;
+    
+}
+.sec3-bg{
+    background-image: url("../Images/sec3.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.accordion-collapse {
+    border: 0;
+}
+.accordion-button {
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+    background-color: #fff;
+    padding: 30px;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+}
+.accordion-button:not(.collapsed) {
+    background: white;
+    color: black;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.accordion-body {
+    padding: 15px;
+    background-color: #FFF7F5;
+    font-family: 'Rubik', serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+.accordion-button::after {
+    width: auto;
+    height: auto;
+    content: "+";
+    font-size: 40px;
+    background-image: none;
+    font-weight: 100;
+    color: #E1423D;
+    
+    transform: translateY(-4px);
+}
+.accordion-button:not(.collapsed)::after {
+    width: auto;
+    height: auto;
+    background-image: none;
+    content: "-";
+    font-size: 48px;
+    transform: translate(-5px, -4px);
+    transform: rotate(0deg);
+}
+.load-more{
+    color: #EE504A;
+   background-color: #FFC7C0;
+}
+.sec4-about{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #EE504A;
+}
+.sec4-contents{
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 67px;   
+}
+.card-con{
+    font-family: 'Rubik', serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+}
+.card-font{
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 16px; 
+}
+/* sec5 */
+.sec5-second-bg{
+    margin-bottom: -55px;
+    
+}
+.main-bg-sec5{
+    background-image: url("../Images/83c25245-9f8d-4d0f-8c28-0e9260a5ab60.jpg");
+    background-repeat: no-repeat;
+    
+}
+.sec5-cont{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+}
+.bg-col{
+    background-color: #fff;
+    width: 50%;
+}
+.btn5-color{
+    background-color: #EE504A;
+    color: white;
+}
+.fa.fa-twitter-square ,
+ .fa.fa-facebook-official,
+ .fa.fa-instagram{
+    color: #EE504A;
+    font-size: 50px;
+ }
+@media screen and (min-width:768px){
+    #section1{
+        background-size: 100%;
+       background-repeat: no-repeat;
+    }
+    
+   
+
+}
+@media screen and (max-width:768px){
+    #section1{
+        background-size: 100%;
+       background-repeat: no-repeat;
+    }
+    .section-one-content{
+        font-size: 20px;
+    }
+    
+
+}
+
+
